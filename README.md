@@ -29,13 +29,13 @@ User message
    - Sign in with a Google account, click "Create API key"
 
 3. Set your key:
-   - Copy `.env.example` to a new file named `.env`
+   - Copy `.env` to a new file named `.env`
    - Fill in your real key in `.env`:
      ```
      GEMINI_API_KEY=your-real-key-here
      ```
    - `.env` is already listed in `.gitignore`, so it will never be committed
-     to GitHub — only `.env.example` (with placeholder text) is meant to be
+     to GitHub — only `.env` (with placeholder text) is meant to be
      committed.
 
    **Never** paste a real key directly into `app.py`, `prompts.py`, or any
@@ -84,5 +84,5 @@ the simple version actually falls short.
 - `app.py` — the Streamlit app (UI + Gemini API calls)
 - `prompts.py` — the Coach and Challenger system prompts
 - `requirements.txt` — Python dependencies
-- `.env.example` — template for your API key (copy to `.env`, fill in the real value — `.env` is gitignored)
+- `.env` — template for your API key (copy to `.env`, fill in the real value — `.env` is gitignored)
 - `.gitignore` — makes sure `.env` and other local-only files never get committed

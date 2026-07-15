@@ -30,8 +30,8 @@ system prompts, not architectural complexity.
 - **Python** + **Streamlit** for the UI
 - **Google Gemini API** for the model
 - **Supabase (Postgres)** for persisting conversation history
-- **Firebase Firestore** and **Claude/GPT** were also considered — reasoning
-  in the repo's commit history / dev notes if curious
+- **Firebase Firestore** and **Claude/GPT** were also considered — see
+DECISIONS.md for the reasoning behind each choice
 
 ## Status
 

@@ -147,6 +147,9 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
+# Local-only docs - not meant for the public repo
+SETUP_LOCAL.md
+
 # Environments
 .env
 .envrc

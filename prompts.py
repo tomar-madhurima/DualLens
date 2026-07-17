@@ -1,5 +1,5 @@
 """
-System prompts for DualMind's two modes.
+System prompts for DualLens's two modes.
 
 These are the entire "personality" of each mode. No separate pipeline,
 no multi-stage reasoning system -- the persona, the "infer what the user
